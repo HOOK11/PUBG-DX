@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\imgui">
+      <UniqueIdentifier>{178af194-838e-47f8-a67c-6f5a57593626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\stb">
+      <UniqueIdentifier>{d3b571ce-cf7b-40e7-ac0b-e12bd9c08479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\png">
+      <UniqueIdentifier>{b393c5a7-953d-44e6-9165-7f65a31f77b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YIYOU">
+      <UniqueIdentifier>{b2f875dc-3877-4481-978a-9ed8edce666d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="drive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\stb\stb_image.h">
+      <Filter>资源文件\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\stb\stb.h">
+      <Filter>资源文件\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\stb\stb_c_lexer.h">
+      <Filter>资源文件\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\stb\stb_connected_components.h">
+      <Filter>资源文件\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\stb\stb_divide.h">
+      <Filter>资源文件\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\stb\stb_ds.h">
+      <Filter>资源文件\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\stb\stb_dxt.h">
+      <Filter>资源文件\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\stb\stb_easy_font.h">
+      <Filter>资源文件\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\stb\stb_herringbone_wang_tile.h">
+      <Filter>资源文件\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\stb\stb_image_resize.h">
+      <Filter>资源文件\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\stb\stb_image_write.h">
+      <Filter>资源文件\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\stb\stb_include.h">
+      <Filter>资源文件\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\stb\stb_leakcheck.h">
+      <Filter>资源文件\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\stb\stb_perlin.h">
+      <Filter>资源文件\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\stb\stb_rect_pack.h">
+      <Filter>资源文件\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\stb\stb_sprintf.h">
+      <Filter>资源文件\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\stb\stb_textedit.h">
+      <Filter>资源文件\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\stb\stb_tilemap_editor.h">
+      <Filter>资源文件\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\stb\stb_truetype.h">
+      <Filter>资源文件\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\stb\stb_voxel_render.h">
+      <Filter>资源文件\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\stb\stretchy_buffer.h">
+      <Filter>资源文件\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="draw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\imgui\imconfig.h">
+      <Filter>资源文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\imgui\imgui.h">
+      <Filter>资源文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\imgui\imgui_impl_dx11.h">
+      <Filter>资源文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\imgui\imgui_impl_win32.h">
+      <Filter>资源文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\imgui\imgui_internal.h">
+      <Filter>资源文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\imgui\imstb_rectpack.h">
+      <Filter>资源文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\imgui\imstb_textedit.h">
+      <Filter>资源文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\imgui\imstb_truetype.h">
+      <Filter>资源文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="date.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="decrypt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\资源文件\png\图标.h">
+      <Filter>资源文件\png</Filter>
+    </ClInclude>
+    <ClInclude Include="screenshot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YiYou\base64.h">
+      <Filter>YIYOU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YiYou\w3c_u.h">
+      <Filter>YIYOU</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\资源文件\imgui\imgui.cpp">
+      <Filter>资源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\资源文件\imgui\imgui_draw.cpp">
+      <Filter>资源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\资源文件\imgui\imgui_impl_dx11.cpp">
+      <Filter>资源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\资源文件\imgui\imgui_impl_win32.cpp">
+      <Filter>资源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\资源文件\imgui\imgui_tables.cpp">
+      <Filter>资源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\资源文件\imgui\imgui_widgets.cpp">
+      <Filter>资源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\资源文件\png\图标.cpp">
+      <Filter>资源文件\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\YiYou\base64.cpp">
+      <Filter>YIYOU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\YiYou\w3c_u.h.cpp">
+      <Filter>YIYOU</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ASM.asm">
+      <Filter>头文件</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
